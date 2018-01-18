@@ -7,18 +7,4 @@ cmake_minimum_required( VERSION 2.8.12 )
 	enable_testing()
 endif()
 
-file(GLOB CROSSPLATFORM_UTF8_HEADERS
-        "utf8/*.h"
-        )
-
-
-file(GLOB CROSSPLATFORM_UTF8_SOURCE
-        "utf8/*.cpp"
-        )
-
-file(GLOB CROSSPLATFORM_UTF8_SRC
-        ${CROSSPLATFORM_UTF8_HEADERS}
-        ${CROSSPLATFORM_UTF8_SOURCE}
-        )
-
 # end of file
